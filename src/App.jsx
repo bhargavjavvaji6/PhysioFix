@@ -175,7 +175,7 @@ function App() {
       <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>Evidence-based care</b><small>Assessment-led treatment</small></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Individual attention</b><small>Plans tailored to your goals</small></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Expert guidance</b><small>Support through recovery</small></div></div><div className="quick-item"><span><MapPin /></span><div><b>Marathahalli location</b><small>Bengaluru, Karnataka</small></div></div></div></section>
 
       <section className="section about-section" id="about"><div className="container about-grid">
-        <div className="doctor-card"><div className="doctor-card-top"><span className="mini-label">MEET YOUR PHYSIOTHERAPIST</span><span className="doctor-card-star">✳</span></div><div className="doctor-portrait"><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=85" alt="Professional clinician portrait" /></div><div className="doctor-card-bottom"><div><h3>Dr. Zayan M R</h3><p>Bachelor of Physiotherapy (BPT)</p><small>Orthopedic Rehabilitation & Spine Specialist</small></div><span className="doctor-check"><Check size={19} /></span></div><div className="doctor-card-ribbon"><Activity size={17} /> 4+ years of physiotherapy experience</div></div>
+        <div className="doctor-card"><div className="doctor-card-top"><span className="mini-label">MEET YOUR PHYSIOTHERAPIST</span><span className="doctor-card-star">✳</span></div><div className="doctor-portrait"><img src="/images/dr-zayan.jpg" alt="Professional clinician portrait" /></div><div className="doctor-card-bottom"><div><h3>Dr. Zayan M R</h3><p>Bachelor of Physiotherapy (BPT)</p><small>Orthopedic Rehabilitation & Spine Specialist</small></div><span className="doctor-check"><Check size={19} /></span></div><div className="doctor-card-ribbon"><Activity size={17} /> 4+ years of physiotherapy experience</div></div>
         <div className="about-copy"><div className="eyebrow"><span className="eyebrow-line"></span> ABOUT PHYSIOFIX HEALTH</div><h2>About PhysioFix Health – Your Trusted  <span>Physiotherapy Clinic in Bangalore</span></h2><p className="lead">Meet Dr. Zayan M R — your partner in movement, rehabilitation and recovery.</p><p>Dr. Zayan M R is a dedicated physiotherapist with over 4 years of experience in orthopedic rehabilitation, spine care, sports injury recovery and evidence-based physiotherapy. At PhysioFix Health, Bengaluru, he focuses on personalised treatment plans designed to improve mobility, manage pain and enhance overall physical function.</p><p>He specialises in orthopedic rehabilitation, spine care, manual therapy and sports injury recovery, providing personalised physiotherapy for back pain, neck pain, knee pain and joint problems.</p><div className="about-points"><span><Check size={16} /> Individualised treatment plans</span><span><Check size={16} /> Spine and orthopedic rehabilitation</span><span><Check size={16} /> Mobility and functional movement</span></div><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer">Consult Dr. Zayan <ArrowRight size={16} /></a></div>
       </div></section>
       <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>4 + Years of Experience</b></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Thousands of Patients Treated</b></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Advanced Regenerative Treatments</b></div></div><div className="quick-item"><span><MapPin /></span><div><b>Patient-Centric Approach</b></div></div></div></section>
@@ -294,48 +294,12 @@ function App() {
             </div>
 
             <p>
-              Explore our clinic, reception and rehabilitation facilities
-              in Marathahalli, Bengaluru.
+              Explore our physiotherapy facilities, treatment rooms
+              and rehabilitation spaces in Marathahalli, Bengaluru.
             </p>
           </div>
 
           <div className="clinic-gallery">
-            <a
-              className="gallery-item gallery-item-feature"
-              href="/images/gallery/clinic-signboard.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/gallery/clinic-signboard.jpg"
-                alt="PhysioFix clinic signboard and entrance"
-                loading="lazy"
-              />
-
-              <span className="gallery-caption">
-                <b>Our Clinic</b>
-                <small>Find us at Sigma Arcade</small>
-              </span>
-            </a>
-
-            <a
-              className="gallery-item gallery-item-reception"
-              href="/images/gallery/reception.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/gallery/reception.jpg"
-                alt="PhysioFix clinic reception"
-                loading="lazy"
-              />
-
-              <span className="gallery-caption">
-                <b>Reception</b>
-                <small>A warm welcome</small>
-              </span>
-            </a>
-
             <a
               className="gallery-item"
               href="/images/gallery/rehab-space-1.jpg"
@@ -344,13 +308,13 @@ function App() {
             >
               <img
                 src="/images/gallery/rehab-space-1.jpg"
-                alt="Physiotherapy rehabilitation area"
+                alt="PhysioFix clinic entrance"
                 loading="lazy"
               />
 
               <span className="gallery-caption">
-                <b>Rehabilitation Space</b>
-                <small>Movement and exercise</small>
+                <b>Our Clinic</b>
+                <small>A welcoming space for your visit</small>
               </span>
             </a>
 
@@ -362,13 +326,13 @@ function App() {
             >
               <img
                 src="/images/gallery/rehab-space-2.jpg"
-                alt="Physiotherapy exercise equipment"
+                alt="PhysioFix treatment area"
                 loading="lazy"
               />
 
               <span className="gallery-caption">
-                <b>Exercise Equipment</b>
-                <small>Training for mobility</small>
+                <b>Reception</b>
+                <small>Personalised physiotherapy care</small>
               </span>
             </a>
 
@@ -380,13 +344,31 @@ function App() {
             >
               <img
                 src="/images/gallery/rehab-space-3.jpg"
-                alt="PhysioFix strength and balance training area"
+                alt="PhysioFix rehabilitation space"
                 loading="lazy"
               />
 
               <span className="gallery-caption">
-                <b>Recovery in Motion</b>
-                <small>Strength, balance and mobility</small>
+                <b>Rehabilitation Space</b>
+                <small>Movement and recovery</small>
+              </span>
+            </a>
+
+            <a
+              className="gallery-item"
+              href="/images/gallery/rehab-space-4.jpeg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/images/gallery/rehab-space-4.jpeg"
+                alt="Physiotherapy treatment room"
+                loading="lazy"
+              />
+
+              <span className="gallery-caption">
+                <b>Treatment Rooms</b>
+                <small>A space for focused care</small>
               </span>
             </a>
           </div>
