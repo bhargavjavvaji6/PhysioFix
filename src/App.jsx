@@ -116,10 +116,10 @@ const faqs = [
 ];
 
 const reviews = [
-  'The physiotherapist explained my condition clearly and guided me through a personalised treatment plan.',
-  'My movement was assessed carefully, and the exercises and next steps were explained in an easy-to-understand way.',
-  'I appreciated the individual attention and clear guidance throughout my physiotherapy sessions.',
-  'The therapist explained suitable exercises and gave me helpful guidance on posture and everyday movement.',
+  'I was searching for a good physiotherapist near me in Bangalore and found PhysioFix. The physiotherapist explained my condition clearly and guided me through a personalised treatment plan.',
+  'I searched for back pain physiotherapy near me in Bangalore and contacted PhysioFix. The physiotherapist assessed my movement, explained the exercises, and helped me work towards improving my daily activities.',
+  'I was looking for a physiotherapy clinic near me in Marathahalli. PhysioFix provided clear guidance and individual attention during my sessions. The treatment approach was explained in an easy-to-understand way.',
+  'I searched for a physiotherapist near me for neck pain and visited PhysioFix. The therapist explained my condition, suggested suitable exercises, and guided me on posture and movement during everyday activities.',
 ];
 
 function Brand() {
@@ -162,8 +162,8 @@ function App() {
       <section className="hero" id="home"><div className="container hero-grid">
         <div className="hero-copy">
           <div className="eyebrow"><span className="eyebrow-line"></span> YOUR MOVEMENT. OUR PRIORITY.</div>
-          <h2>Move better, Feel stronger,<span>Live pain-free.</span></h2>
-          <h1>Your trusted physiotherapy clinic in Bangalore.</h1>
+          <h3>Move better, Feel stronger, Live pain-free.</h3>
+          <h2>Your trusted <span> physiotherapy clinic in Bangalore.</span></h2>
           <p className="hero-lede">
             PhysioFix Health offers personalised physiotherapy and rehabilitation to help manage back pain, neck pain, joint problems and sports injuries. Get expert guidance and a treatment plan tailored to your recovery goals.</p>
           <div className="hero-buttons"><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer"><CalendarDays size={17} /> Book an appointment <ArrowRight size={16} /></a><a className="btn btn-outline" href="#contact">Contact us <MoveUpRight size={16} /></a></div>
@@ -176,9 +176,9 @@ function App() {
 
       <section className="section about-section" id="about"><div className="container about-grid">
         <div className="doctor-card"><div className="doctor-card-top"><span className="mini-label">MEET YOUR PHYSIOTHERAPIST</span><span className="doctor-card-star">✳</span></div><div className="doctor-portrait"><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=85" alt="Professional clinician portrait" /></div><div className="doctor-card-bottom"><div><h3>Dr. Zayan M R</h3><p>Bachelor of Physiotherapy (BPT)</p><small>Orthopedic Rehabilitation & Spine Specialist</small></div><span className="doctor-check"><Check size={19} /></span></div><div className="doctor-card-ribbon"><Activity size={17} /> 4+ years of physiotherapy experience</div></div>
-        <div className="about-copy"><div className="eyebrow"><span className="eyebrow-line"></span> ABOUT PHYSIOFIX HEALTH</div><h2>Helping you get back to <span>what moves you.</span></h2><p className="lead">Meet Dr. Zayan M R — your partner in movement, rehabilitation and recovery.</p><p>Dr. Zayan M R is a dedicated physiotherapist with over 4 years of experience in orthopedic rehabilitation, spine care, sports injury recovery and evidence-based physiotherapy. At PhysioFix Health, Bengaluru, he focuses on personalised treatment plans designed to improve mobility, manage pain and enhance overall physical function.</p><p>He specialises in orthopedic rehabilitation, spine care, manual therapy and sports injury recovery, providing personalised physiotherapy for back pain, neck pain, knee pain and joint problems.</p><div className="about-points"><span><Check size={16} /> Individualised treatment plans</span><span><Check size={16} /> Spine and orthopedic rehabilitation</span><span><Check size={16} /> Mobility and functional movement</span></div><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer">Consult Dr. Zayan <ArrowRight size={16} /></a></div>
+        <div className="about-copy"><div className="eyebrow"><span className="eyebrow-line"></span> ABOUT PHYSIOFIX HEALTH</div><h2>About PhysioFix Health – Your Trusted  <span>Physiotherapy Clinic in Bangalore</span></h2><p className="lead">Meet Dr. Zayan M R — your partner in movement, rehabilitation and recovery.</p><p>Dr. Zayan M R is a dedicated physiotherapist with over 4 years of experience in orthopedic rehabilitation, spine care, sports injury recovery and evidence-based physiotherapy. At PhysioFix Health, Bengaluru, he focuses on personalised treatment plans designed to improve mobility, manage pain and enhance overall physical function.</p><p>He specialises in orthopedic rehabilitation, spine care, manual therapy and sports injury recovery, providing personalised physiotherapy for back pain, neck pain, knee pain and joint problems.</p><div className="about-points"><span><Check size={16} /> Individualised treatment plans</span><span><Check size={16} /> Spine and orthopedic rehabilitation</span><span><Check size={16} /> Mobility and functional movement</span></div><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer">Consult Dr. Zayan <ArrowRight size={16} /></a></div>
       </div></section>
-      <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>4 + Years of Experience</b><small>Assessment-led treatment</small></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Thousands of Patients Treated</b></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Advanced Regenerative Treatments</b></div></div><div className="quick-item"><span><MapPin /></span><div><b>Patient-Centric Approach</b></div></div></div></section>
+      <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>4 + Years of Experience</b></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Thousands of Patients Treated</b></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Advanced Regenerative Treatments</b></div></div><div className="quick-item"><span><MapPin /></span><div><b>Patient-Centric Approach</b></div></div></div></section>
 
       <section className="services-section section" id="services"><div className="container"><div className="section-heading"><div className="eyebrow"><span className="eyebrow-line"></span> PHYSIOTHERAPY SERVICES</div><h2>Care for every <span>step forward.</span></h2></div><p>From everyday aches to sports recovery, explore physiotherapy services designed around your movement and rehabilitation goals.</p></div>
         <div className="treatments-grid">
@@ -214,7 +214,70 @@ function App() {
 
       <section className="why-section section" id="why-us"><div className="container"><div className="why-heading"><div className="eyebrow eyebrow-light"><span className="eyebrow-line"></span> THE PHYSIOFIX DIFFERENCE</div><h2>Why patients choose <span>PhysioFix.</span></h2><p>Care that combines thoughtful assessment, individual attention and a plan shaped around your needs.</p></div><div className="benefits-grid">{benefits.map(([title, desc], i) => <div className="benefit-card" key={title}><div className="benefit-number">{String(i + 1).padStart(2, '0')}</div><div className="benefit-check"><Check size={17} /></div><h3>{title}</h3><p>{desc}</p></div>)}</div><div className="why-cta"><span>Have a question about which treatment is right for you?</span><a href={WA_LINK} target="_blank" rel="noopener noreferrer">Talk to PhysioFix <ArrowRight size={16} /></a></div></div></section>
 
-      <section className="section reviews-section" id="reviews"><div className="container"><div className="section-heading review-heading"><div><div className="eyebrow"><span className="eyebrow-line"></span> PATIENT EXPERIENCES</div><h2>Care that starts with <span>listening.</span></h2></div><p>Clear explanations and individual attention are important parts of a positive care experience.</p></div><div className="reviews-grid">{reviews.map((review, i) => <article className="review-card" key={review}><div className="review-stars" aria-label="Patient review">★★★★★</div><span className="quote-mark">“</span><p>{review}</p><div className="review-person"><span className="review-avatar">{['P', 'A', 'S', 'R'][i]}</span><div><b>Patient feedback</b><small>Physiotherapy visit</small></div><ShieldCheck size={17} className="review-verified" /></div></article>)}</div><p className="review-disclaimer">Illustrative review-style copy based on the supplied content. Replace with verified patient reviews and obtain permission before publishing.</p></div></section>
+      <section className="section reviews-section" id="reviews">
+        <div className="container">
+          <div className="section-heading review-heading">
+            <div>
+              <div className="eyebrow">
+                <span className="eyebrow-line"></span>
+                PATIENT EXPERIENCES
+              </div>
+
+              <h2>
+                Care that starts with <span>listening.</span>
+              </h2>
+            </div>
+
+            <p>
+              Thoughtful assessment, clear explanations and individual
+              attention are important parts of a supportive care experience.
+            </p>
+          </div>
+
+          <div className="reviews-grid">
+            {reviews.map((review, i) => (
+              <article className="review-card" key={review}>
+                <div className="review-card-top">
+                  <span
+                    className="review-quote-icon"
+                    aria-hidden="true"
+                  >
+                    “
+                  </span>
+
+                  <span
+                    className="review-stars"
+                    aria-label="Decorative star graphic"
+                  >
+                    ★★★★★
+                  </span>
+                </div>
+
+                <p>{review}</p>
+
+                <div className="review-person">
+                  <span className="review-avatar" aria-hidden="true">
+                    {["P", "A", "S", "R"][i]}
+                  </span>
+
+                  <div>
+                    <b>Example feedback</b>
+                    <small>
+                      Illustrative copy · Not a verified review
+                    </small>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <p className="review-disclaimer">
+            These are example review-style statements, not verified patient
+            testimonials. Replace them with authentic patient reviews and
+            obtain permission before publishing.
+          </p>
+        </div>
+      </section>
 
       <section className="section gallery-section" id="gallery">
         <div className="container">
