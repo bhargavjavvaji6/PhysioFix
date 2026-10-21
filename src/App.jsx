@@ -127,7 +127,7 @@ function Brand() {
     <span className="brand-icon"><img src="/images/physiofix-logo.png" alt="PhysioFix logo" />
     </span>
     <span className="brand-word">PHYSIO<span>FIX</span><small>PHYSIOTHERAPY & REHABILITATION</small></span>
-  </a>;
+  </a >;
 }
 
 function App() {
@@ -161,7 +161,6 @@ function App() {
     <main>
       <section className="hero" id="home"><div className="container hero-grid">
         <div className="hero-copy">
-          <div className="eyebrow"><span className="eyebrow-line"></span> YOUR MOVEMENT. OUR PRIORITY.</div>
           <h3>Move better, Feel stronger, Live pain-free.</h3>
           <h2>Your trusted <span> physiotherapy clinic in Bangalore.</span></h2>
           <p className="hero-lede">
@@ -170,7 +169,7 @@ function App() {
           <div className="hero-assurance"><span className="assurance-icon"><ShieldCheck size={20} /></span><div><b>Personalised, patient-focused care</b><small>Every treatment plan starts with understanding you.</small></div></div>
         </div>
 
-      </div><div className="container hero-bottom"><span>ORTHOPEDIC REHABILITATION</span><i></i><span>SPINE CARE</span><i></i><span>SPORTS INJURY RECOVERY</span><i></i><span>PERSONALISED TREATMENT</span></div></section>
+      </div></section>
 
       <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>Evidence-based care</b><small>Assessment-led treatment</small></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Individual attention</b><small>Plans tailored to your goals</small></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Expert guidance</b><small>Support through recovery</small></div></div><div className="quick-item"><span><MapPin /></span><div><b>Marathahalli location</b><small>Bengaluru, Karnataka</small></div></div></div></section>
 
@@ -180,7 +179,7 @@ function App() {
       </div></section>
       <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>4 + Years of Experience</b></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Thousands of Patients Treated</b></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Advanced Regenerative Treatments</b></div></div><div className="quick-item"><span><MapPin /></span><div><b>Patient-Centric Approach</b></div></div></div></section>
 
-      <section className="services-section section" id="services"><div className="container"><div className="section-heading"><div className="eyebrow"><span className="eyebrow-line"></span> PHYSIOTHERAPY SERVICES</div><h2>Care for every <span>step forward.</span></h2></div><p>From everyday aches to sports recovery, explore physiotherapy services designed around your movement and rehabilitation goals.</p></div>
+      <section className="services-section section" id="services"><div className="container"><div className="section-heading"><div className="eyebrow"><span className="eyebrow-line"></span><h2>PHYSIOTHERAPY<span> SERVICES</span></h2></div></div><p>From everyday aches to sports recovery, explore physiotherapy services designed around your movement and rehabilitation goals.</p></div>
         <div className="treatments-grid">
           {treatments.map(({ image, title, desc }, i) => (
             <a
@@ -212,7 +211,7 @@ function App() {
         </div>
       </section>
 
-      <section className="why-section section" id="why-us"><div className="container"><div className="why-heading"><div className="eyebrow eyebrow-light"><span className="eyebrow-line"></span> THE PHYSIOFIX DIFFERENCE</div><h2>Why patients choose <span>PhysioFix.</span></h2><p>Care that combines thoughtful assessment, individual attention and a plan shaped around your needs.</p></div><div className="benefits-grid">{benefits.map(([title, desc], i) => <div className="benefit-card" key={title}><div className="benefit-number">{String(i + 1).padStart(2, '0')}</div><div className="benefit-check"><Check size={17} /></div><h3>{title}</h3><p>{desc}</p></div>)}</div><div className="why-cta"><span>Have a question about which treatment is right for you?</span><a href={WA_LINK} target="_blank" rel="noopener noreferrer">Talk to PhysioFix <ArrowRight size={16} /></a></div></div></section>
+      <section className="why-section section" id="why-us"><div className="container"><div className="why-heading"><div className="eyebrow eyebrow-light"><span className="eyebrow-line"></span> THE PHYSIOFIX DIFFERENCE</div><h2>Why patients choose <span>PhysioFix.</span></h2></div><div className="benefits-grid">{benefits.map(([title, desc], i) => <div className="benefit-card" key={title}><div className="benefit-number">{String(i + 1).padStart(2, '0')}</div><div className="benefit-check"><Check size={17} /></div><h3>{title}</h3><p>{desc}</p></div>)}</div></div></section>
 
       <section className="section reviews-section" id="reviews">
         <div className="container">
@@ -227,11 +226,6 @@ function App() {
                 Care that starts with <span>listening.</span>
               </h2>
             </div>
-
-            <p>
-              Thoughtful assessment, clear explanations and individual
-              attention are important parts of a supportive care experience.
-            </p>
           </div>
 
           <div className="reviews-grid">
@@ -270,12 +264,6 @@ function App() {
               </article>
             ))}
           </div>
-
-          <p className="review-disclaimer">
-            These are example review-style statements, not verified patient
-            testimonials. Replace them with authentic patient reviews and
-            obtain permission before publishing.
-          </p>
         </div>
       </section>
 
@@ -313,7 +301,7 @@ function App() {
               />
 
               <span className="gallery-caption">
-                <b>Our Clinic</b>
+                <b>Personalized Treatment</b>
                 <small>A welcoming space for your visit</small>
               </span>
             </a>
@@ -331,7 +319,7 @@ function App() {
               />
 
               <span className="gallery-caption">
-                <b>Reception</b>
+                <b>Strength Training</b>
                 <small>Personalised physiotherapy care</small>
               </span>
             </a>
@@ -349,7 +337,7 @@ function App() {
               />
 
               <span className="gallery-caption">
-                <b>Rehabilitation Space</b>
+                <b>Rehabilitation Exercises</b>
                 <small>Movement and recovery</small>
               </span>
             </a>
@@ -367,7 +355,7 @@ function App() {
               />
 
               <span className="gallery-caption">
-                <b>Treatment Rooms</b>
+                <b>Pain Relief Therapy</b>
                 <small>A space for focused care</small>
               </span>
             </a>
@@ -381,7 +369,7 @@ function App() {
 
     </main>
 
-    <div className="floating-actions" aria-label="Quick contact buttons"><a href={`tel:+${PHONE_LINK}`} className="floating-button floating-call" aria-label="Call PhysioFix"><Phone size={21} /><span className="float-label">Call PhysioFix</span></a><a href={WA_LINK} target="_blank" rel=" noopener noreferrer" className="floating-button floating-wa" aria-label="WhatsApp PhysioFix"><MessageCircle size={24} /><span className="float-label">Chat on WhatsApp</span><span className="pulse-ring"></span></a></div>
+    <div className="floating-actions" aria-label="Quick contact buttons"><a href={`tel:+${PHONE_LINK}`} className="floating-button floating-call" aria-label="Call PhysioFix"><Phone size={21} /><span className="float-label">Call PhysioFix</span></a><a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="floating-button floating-wa" aria-label="WhatsApp PhysioFix"><MessageCircle size={24} /><span className="float-label">Chat on WhatsApp</span><span className="pulse-ring"></span></a></div>
     <div className="mobile-contact-bar"><a href={`tel:+${PHONE_LINK}`}><Phone size={17} /> Call clinic</a><a href={WA_LINK} target="_blank" rel="noopener noreferrer"><MessageCircle size={18} /> WhatsApp</a></div>
   </div>;
 }
