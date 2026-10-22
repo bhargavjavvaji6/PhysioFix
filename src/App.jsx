@@ -164,7 +164,7 @@ function App() {
           <h3>Move better, Feel stronger, Live pain-free.</h3>
           <h2>Your trusted <span> physiotherapy clinic in Bangalore.</span></h2>
           <p className="hero-lede">
-            PhysioFix Health offers personalised physiotherapy and rehabilitation to help manage back pain, neck pain, joint problems and sports injuries. Get expert guidance and a treatment plan tailored to your recovery goals.</p>
+            Physiofix Physiotherapy offers personalised physiotherapy and rehabilitation to help manage back pain, neck pain, joint problems and sports injuries. Get expert guidance and a treatment plan tailored to your recovery goals.</p>
           <div className="hero-buttons"><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer"><CalendarDays size={17} /> Book an appointment <ArrowRight size={16} /></a><a className="btn btn-outline" href="#contact">Contact us <MoveUpRight size={16} /></a></div>
           <div className="hero-assurance"><span className="assurance-icon"><ShieldCheck size={20} /></span><div><b>Personalised, patient-focused care</b><small>Every treatment plan starts with understanding you.</small></div></div>
         </div>
@@ -175,7 +175,7 @@ function App() {
 
       <section className="section about-section" id="about"><div className="container about-grid">
         <div className="doctor-card"><div className="doctor-card-top"><span className="mini-label">MEET YOUR PHYSIOTHERAPIST</span><span className="doctor-card-star">✳</span></div><div className="doctor-portrait"><img src="/images/dr-zayan.jpg" alt="Professional clinician portrait" /></div><div className="doctor-card-bottom"><div><h3>Dr. Zayan M R</h3><p>Bachelor of Physiotherapy (BPT)</p><small>Orthopedic Rehabilitation & Spine Specialist</small></div><span className="doctor-check"><Check size={19} /></span></div><div className="doctor-card-ribbon"><Activity size={17} /> 4+ years of physiotherapy experience</div></div>
-        <div className="about-copy"><div className="eyebrow"><span className="eyebrow-line"></span> ABOUT PHYSIOFIX HEALTH</div><h2>About PhysioFix Health – Your Trusted  <span>Physiotherapy Clinic in Bangalore</span></h2><p className="lead">Meet Dr. Zayan M R — your partner in movement, rehabilitation and recovery.</p><p>Dr. Zayan M R is a dedicated physiotherapist with over 4 years of experience in orthopedic rehabilitation, spine care, sports injury recovery and evidence-based physiotherapy. At PhysioFix Health, Bengaluru, he focuses on personalised treatment plans designed to improve mobility, manage pain and enhance overall physical function.</p><p>He specialises in orthopedic rehabilitation, spine care, manual therapy and sports injury recovery, providing personalised physiotherapy for back pain, neck pain, knee pain and joint problems.</p><div className="about-points"><span><Check size={16} /> Individualised treatment plans</span><span><Check size={16} /> Spine and orthopedic rehabilitation</span><span><Check size={16} /> Mobility and functional movement</span></div><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer">Consult Dr. Zayan <ArrowRight size={16} /></a></div>
+        <div className="about-copy"><div className="eyebrow"><span className="eyebrow-line"></span> ABOUT Physiofix Physiotherapy</div><h2>About Physiofix Physiotherapy – Your Trusted  <span>Physiotherapy Clinic in Bangalore</span></h2><p className="lead">Meet Dr. Zayan M R — your partner in movement, rehabilitation and recovery.</p><p>Dr. Zayan M R is a dedicated physiotherapist with over 4 years of experience in orthopedic rehabilitation, spine care, sports injury recovery and evidence-based physiotherapy. At Physiofix Physiotherapy, Bengaluru, he focuses on personalised treatment plans designed to improve mobility, manage pain and enhance overall physical function.</p><p>He specialises in orthopedic rehabilitation, spine care, manual therapy and sports injury recovery, providing personalised physiotherapy for back pain, neck pain, knee pain and joint problems.</p><div className="about-points"><span><Check size={16} /> Individualised treatment plans</span><span><Check size={16} /> Spine and orthopedic rehabilitation</span><span><Check size={16} /> Mobility and functional movement</span></div><a className="btn btn-primary" href={WA_LINK} target="_blank" rel="noopener noreferrer">Consult Dr. Zayan <ArrowRight size={16} /></a></div>
       </div></section>
       <section className="quick-benefits"><div className="container quick-grid"><div className="quick-item"><span><ShieldCheck /></span><div><b>4 + Years of Experience</b></div></div><div className="quick-item"><span><HandHeart /></span><div><b>Thousands of Patients Treated</b></div></div><div className="quick-item"><span><Stethoscope /></span><div><b>Advanced Regenerative Treatments</b></div></div><div className="quick-item"><span><MapPin /></span><div><b>Patient-Centric Approach</b></div></div></div></section>
 
@@ -302,7 +302,7 @@ function App() {
 
               <span className="gallery-caption">
                 <b>Personalized Treatment</b>
-                <small>A welcoming space for your visit</small>
+                <small>One-on-one physiotherapy sessions to improve your mobility and strength.</small>
               </span>
             </a>
 
@@ -320,7 +320,7 @@ function App() {
 
               <span className="gallery-caption">
                 <b>Strength Training</b>
-                <small>Personalised physiotherapy care</small>
+                <small>Guided exercises to build muscle strength and improve function.</small>
               </span>
             </a>
 
@@ -338,7 +338,7 @@ function App() {
 
               <span className="gallery-caption">
                 <b>Rehabilitation Exercises</b>
-                <small>Movement and recovery</small>
+                <small>Targeted techniques to reduce pain and restore movement.</small>
               </span>
             </a>
 
@@ -356,7 +356,7 @@ function App() {
 
               <span className="gallery-caption">
                 <b>Pain Relief Therapy</b>
-                <small>A space for focused care</small>
+                <small>Step-by-step training to recover from injuries and return to an active life.</small>
               </span>
             </a>
           </div>

@@ -3786,10 +3786,6 @@ button {
     }
 }
 
-/* =========================================
-   PHYSIOFIX HERO BACKGROUND
-   Applies ONLY to the header/hero section
-========================================= */
 
 .hero-section {
     position: relative;
@@ -4796,13 +4792,14 @@ button {
     }
 }
 
+
 /* ========================================
    QUICK BENEFITS SECTION
 ======================================== */
 
 .quick-benefits {
     background: #123b56;
-    padding: 32px 0;
+    padding: 13px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
